@@ -11,15 +11,26 @@ DME-GetZones -apikey xcxxcdsc-csdc-sdcsdc-9999-1231231 -secret 1231231231-asd123
 
 That will return PSobject with all the zones under this API account. 
 
-processMulti       : False
-activeThirdParties : {}
-folderId           : 2141
-gtdEnabled         : False
-pendingActionId    : 0
-updated            : 1541624635670
-created            : 1541548800000
-name               : test00001.com
-id                 : 887052
+Current functions:
+
+DME-Headers - Creates relevant headers for API access.
+
+DME-GetZones - Get zones list.
+
+DME-AddZone - Adds a Zone.
+
+DME-AddMultiZones - Creates Multiple Zones at one call.
+
+DME-RemoveMultiZones - Removes Multiple Zones at one call.
+
+DME-GetRecords - Get records by Domain ID.
+
+DME-NewRecord - Adds new record to zone. (supports 'A', 'AAAA', 'ANAME', 'CNAME', 'HTTPRED', 'MX', 'NS', 'PTR', 'SRV', 'TXT', 'SPF','SOA')
+
+DME-UpdateRecord - Updates a record by Record ID.
+
+DME-DeleteRecord - Removes a record by Record ID.
+
 
 
 
