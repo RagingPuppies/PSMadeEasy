@@ -4,6 +4,10 @@ This Module was Created in order to automate some DNS processes (like certificat
 In order to use it import it to your script - 
 Import-Module .\PSMadeEasy.ps1
 
+####################################################################################
+BY DEFAULT WILL USE API.SANDBOX URL, TO USE PRODUCTION URL USE "-APIEnvironment api"
+####################################################################################
+
 In some cases there is an issue with the time compare between your local time and DNSMadeEasy time, use -offset for fixing that(Miliseconds).
 Example of function with offset:
 
